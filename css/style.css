@@ -462,6 +462,12 @@ ul { list-style: none; }
   animation: scrollDown 1.8s ease-in-out infinite;
 }
 
+.hero h1 {
+font-size: clamp(2rem, 4vw, 3.2rem);
+max-width: 700px;
+line-height: 1.15;
+}
+
 @keyframes scrollDown {
   0%   { opacity: 1; transform: translateX(-50%) translateY(0); }
   100% { opacity: 0; transform: translateX(-50%) translateY(16px); }
